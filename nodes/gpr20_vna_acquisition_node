@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+# Imports the VNADriver main class
+from gpr20_vna_acquisition.vna_node import VNANode
+
+if __name__ == "__main__":
+  print("Launching node")
+  VNANode()
